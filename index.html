@@ -31,6 +31,13 @@
         <br/>
         <p>바코드 생성기(QrBarcodeGenVue)</p>
         <a href="https://sapyeon.github.io/QrBarcodeGenVue/">바로가기</a>
+        <hr>
+
+        <h2>개발용어 검색</h2>
+        <input type="text" id="search-input" placeholder="검색할 용어를 입력하세요">
+        <button id="search-button">검색</button>
+        <h3 id = "term-title"></h3>
+        <p id="term-description"></p>
     </main>
 
     <!-- 푸터 -->
@@ -38,7 +45,8 @@
         <p>&copy; 2024 기본 홈페이지. All rights reserved.</p>
     </footer>
 
-    <script src="script.js"></script>
+      <!-- 스크립트를 defer로 로드 -->
+      <script src="home.js" defer></script>
 
 </body>
 </html>

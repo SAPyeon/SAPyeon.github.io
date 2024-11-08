@@ -42,3 +42,10 @@ footer {
     bottom: 0;
     width: 100%;
 }
+#search-input{
+    min-height: 30px;
+}
+#search-button{
+    min-height: 30px;
+    min-width: 50px;
+}
